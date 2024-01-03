@@ -1,0 +1,34 @@
+
+:PROJECT GO TO GUIDE: 
+this txt file provides for understanding the conectivity of all files in assembler program.
+
+
+# assembler.c - contains main function.
+
+# preAssembler.c - responsible of expand macros in new am file.
+
+# firstPass.c -  contains firstPass function and private functions for firstPass function.
+
+# secondPass.c - contains firstPass function.
+
+# passesUtils - contaion all the functions used in both first and second pass.
+
+# utils.c - contains utility function for all c files in general.
+
+# configurations.c - contains reserved string arrays for string checking and using.
+
+# configurations.h - includes all enums, structures and defenitions. 
+
+# executeFiles.c - contains  files execution functions for the finished&checked file and its private function.
+
+
+# other h files - contain declarations & documentations of functions for each file respectively:
+
+preAssembler.h , firstPass.h , secondPass.h , passesUtils.h , utils.h , executeFiles.h
+
+# makefile
+
+
+# test files: test1 , test2 , test3 , test4 , test5 (+success files screenshot), errors_firstPass(+2 errors screenshots) , errors_secondPass(+screenshot) .
+
+Ⓒ Eden Cohen, Einav Mordok.
